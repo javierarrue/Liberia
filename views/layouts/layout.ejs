@@ -10,7 +10,9 @@
 
 <body>
 
-    <%- body %>
+    <%- include('../parts/header.ejs') %>
+        <%- include('../parts/errMessage.ejs') %>
+            <%- body %>
 
 </body>
 
